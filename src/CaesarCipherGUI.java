@@ -244,7 +244,7 @@ public class CaesarCipherGUI extends JFrame {
         outputTextArea.setText("");
         shiftField.setText("");
     }
-    
+
 //Основная магия
     private static String encrypt(String text, int shift) {
         StringBuilder result = new StringBuilder();
